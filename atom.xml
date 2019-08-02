@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eggzone.github.io/blog/</id>
     <title>Youngxy&apos;s Blog</title>
-    <updated>2019-08-02T23:18:29.852Z</updated>
+    <updated>2019-08-02T23:22:31.152Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eggzone.github.io/blog/"/>
     <link rel="self" href="https://eggzone.github.io/blog//atom.xml"/>
@@ -10,4 +10,14 @@
     <logo>https://eggzone.github.io/blog//images/avatar.png</logo>
     <icon>https://eggzone.github.io/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, Youngxy&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[HK之死]]></title>
+        <id>https://eggzone.github.io/blog//post/hk-zhi-si</id>
+        <link href="https://eggzone.github.io/blog//post/hk-zhi-si">
+        </link>
+        <updated>2019-08-02T23:19:14.000Z</updated>
+        <content type="html"><![CDATA[<p>香港走到今天这一步，可能是偶然，但也是必然。并不能将原因简单归罪于谁，或归功于谁，肯定是由历史、各方角力以及时机大家一起早就的今天这个现象。<br>
+其实，我在这个事情里面的态度算是很中立的了。因为我个人认为，不管香港人提出什么诉求，肯定有其理由，应该听听他们怎么说，而不是一开始就把他们定性为港du或者啥名号，进而把他们驱逐出境，不准来捞金。</p>
+]]></content>
+    </entry>
 </feed>
