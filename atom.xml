@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eggzone.github.io/blog/</id>
     <title>Youngxy&apos;s Blog</title>
-    <updated>2019-08-03T17:19:46.437Z</updated>
+    <updated>2019-08-04T15:54:31.505Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eggzone.github.io/blog/"/>
     <link rel="self" href="https://eggzone.github.io/blog//atom.xml"/>
@@ -11,12 +11,78 @@
     <icon>https://eggzone.github.io/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, Youngxy&apos;s Blog</rights>
     <entry>
-        <title type="html"><![CDATA[最近的计划19年8月]]></title>
-        <id>https://eggzone.github.io/blog//post/zui-jin-de-ji-hua-19-nian-8-yue</id>
-        <link href="https://eggzone.github.io/blog//post/zui-jin-de-ji-hua-19-nian-8-yue">
+        <title type="html"><![CDATA[点击变换页面颜色]]></title>
+        <id>https://eggzone.github.io/blog//post/dian-ji-bian-huan-ye-mian-yan-se</id>
+        <link href="https://eggzone.github.io/blog//post/dian-ji-bian-huan-ye-mian-yan-se">
         </link>
-        <updated>2019-08-02T23:23:12.000Z</updated>
-        <content type="html"><![CDATA[<p>计划最近把中级工程师给考了，至于科目，等报名的时候再想吧。</p>
+        <updated>2019-08-04T15:51:26.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/627360c7gy1g5o32ci1hlj21hc0paq3i.jpg" alt=""><br>
+效果如上。</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+    &lt;title&gt;变换色&lt;/title&gt;
+    &lt;script src=&quot;./jQuery/jquery-3.3.1.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            background: #9b59b6;
+            padding: 10px;
+        }
+        .box a {
+            display: block;
+            float: left;
+            height: 40px;
+            width: 40px;
+            /* margin: 10px; */
+        }
+        .box a:hover {
+            border: white 1px solid;
+        }
+        #blue {
+            background-color: #3498db;
+        }
+        #green {
+            background-color: #2ecc71;
+        }
+        #red {
+            background-color: #e74c3c;
+        }
+        #white {
+            background-color: #ecf0f1;
+        }
+        #orange {
+            background-color: #e67e22;
+        }
+    &lt;/style&gt;
+    &lt;script&gt;
+        $(function() {
+            $('a').click(function() {
+                $('body').css('background-color', $(this).css('background-color'))
+            })
+        })
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;box&quot;&gt;
+        &lt;a href=&quot;#&quot; id=&quot;red&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; id=&quot;green&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; id=&quot;orange&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; id=&quot;blue&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; id=&quot;white&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 ]]></content>
     </entry>
 </feed>

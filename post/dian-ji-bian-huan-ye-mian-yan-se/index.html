@@ -5,14 +5,14 @@
     
 <meta charset="utf-8" >
 
-<title>最近的计划19年8月 | Youngxy&#39;s Blog</title>
+<title>点击变换页面颜色 | Youngxy&#39;s Blog</title>
 <meta name="description" content="希望能是个永久的窝。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://eggzone.github.io/blog//favicon.ico?v=1564852783481">
+<link rel="shortcut icon" href="https://eggzone.github.io/blog//favicon.ico?v=1564934067385">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://eggzone.github.io/blog//styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="site-header">
     <div class="left">
       <a href="https://eggzone.github.io/blog/">
-        <img class="avatar" src="https://eggzone.github.io/blog//images/avatar.png?v=1564852783481" alt="" width="32px" height="32px">
+        <img class="avatar" src="https://eggzone.github.io/blog//images/avatar.png?v=1564934067385" alt="" width="32px" height="32px">
       </a>
       <a href="https://eggzone.github.io/blog/">
         <h1 class="site-title">Youngxy&#39;s Blog</h1>
@@ -62,13 +62,79 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">最近的计划19年8月</h2>
+          <h2 class="post-title">点击变换页面颜色</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-08-03</span>
+            <span><i class="icon-calendar-outline"></i> 2019-08-04</span>
             
           </div>
           <div class="post-content">
-            <p>计划最近把中级工程师给考了，至于科目，等报名的时候再想吧。</p>
+            <p><img src="http://ww1.sinaimg.cn/large/627360c7gy1g5o32ci1hlj21hc0paq3i.jpg" alt=""><br>
+效果如上。</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+    &lt;title&gt;变换色&lt;/title&gt;
+    &lt;script src=&quot;./jQuery/jquery-3.3.1.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            background: #9b59b6;
+            padding: 10px;
+        }
+        .box a {
+            display: block;
+            float: left;
+            height: 40px;
+            width: 40px;
+            /* margin: 10px; */
+        }
+        .box a:hover {
+            border: white 1px solid;
+        }
+        #blue {
+            background-color: #3498db;
+        }
+        #green {
+            background-color: #2ecc71;
+        }
+        #red {
+            background-color: #e74c3c;
+        }
+        #white {
+            background-color: #ecf0f1;
+        }
+        #orange {
+            background-color: #e67e22;
+        }
+    &lt;/style&gt;
+    &lt;script&gt;
+        $(function() {
+            $('a').click(function() {
+                $('body').css('background-color', $(this).css('background-color'))
+            })
+        })
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;box&quot;&gt;
+        &lt;a href=&quot;#&quot; id=&quot;red&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; id=&quot;green&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; id=&quot;orange&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; id=&quot;blue&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; id=&quot;white&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 
           </div>
         </div>
