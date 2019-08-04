@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eggzone.github.io/blog/</id>
     <title>Youngxy&apos;s Blog</title>
-    <updated>2019-08-04T16:00:12.411Z</updated>
+    <updated>2019-08-04T16:27:41.419Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eggzone.github.io/blog/"/>
     <link rel="self" href="https://eggzone.github.io/blog//atom.xml"/>
@@ -10,6 +10,51 @@
     <logo>https://eggzone.github.io/blog//images/avatar.png</logo>
     <icon>https://eggzone.github.io/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, Youngxy&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[文字叠底在图片上]]></title>
+        <id>https://eggzone.github.io/blog//post/wen-zi-die-di-zai-tu-pian-shang</id>
+        <link href="https://eggzone.github.io/blog//post/wen-zi-die-di-zai-tu-pian-shang">
+        </link>
+        <updated>2019-08-04T16:26:22.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://eggzone.github.io/blog//post-images/1564936026124.jpg" alt=""><br>
+如图所示</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+    &lt;title&gt;文字叠底在图片上&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            padding: 0;
+            margin: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background: #dfe4ea;
+        }
+        h1 {
+            text-transform: uppercase;
+            font-size: 200px;
+            letter-spacing: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            background: url('./img/bg3.jpg');
+            background-size: cover;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;youngxy&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[点击变换页面颜色]]></title>
         <id>https://eggzone.github.io/blog//post/dian-ji-bian-huan-ye-mian-yan-se</id>
