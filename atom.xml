@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eggzone.github.io/blog/</id>
     <title>Youngxy&apos;s Blog</title>
-    <updated>2019-08-15T02:09:53.174Z</updated>
+    <updated>2019-08-15T02:12:26.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eggzone.github.io/blog/"/>
     <link rel="self" href="https://eggzone.github.io/blog//atom.xml"/>
@@ -16,8 +16,16 @@
         <link href="https://eggzone.github.io/blog//post/dian-ying-e-ren-chuan">
         </link>
         <updated>2019-08-15T02:04:38.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://eggzone.github.io/blog//post-images/1565834707976.png" alt=""></p>
+        <summary type="html"><![CDATA[<p><img src="https://eggzone.github.io/blog//post-images/1565834707976.png" alt=""></p>
+<blockquote>
 <p>剧情简介：罪犯头目张东洙（Don Lee）被一名神秘莫测的连环杀手暴力袭击之后幸存，与当地警探郑泰硕（Kim Moo Yul）形成了一种奇妙的搭档关系，联手捕捉被称为“K”的虐待狂杀手”。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<p><img src="https://eggzone.github.io/blog//post-images/1565834707976.png" alt=""></p>
+<blockquote>
+<p>剧情简介：罪犯头目张东洙（Don Lee）被一名神秘莫测的连环杀手暴力袭击之后幸存，与当地警探郑泰硕（Kim Moo Yul）形成了一种奇妙的搭档关系，联手捕捉被称为“K”的虐待狂杀手”。</p>
+</blockquote>
+<!-- more -->
 <p>一般般，给三星。<br>
 正常的韩国黑道爽片，韩国的黑道片一直处于非常高的水平线上，没有以前看过的几部爽，但整体还是很流畅的。<br>
 要是国内也能做这个题材，肯定也可以很出彩。<br>
@@ -25,7 +33,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[长安十二时辰短评]]></title>
+        <title type="html"><![CDATA[电视剧-长安十二时辰]]></title>
         <id>https://eggzone.github.io/blog//post/chang-an-shi-er-shi-chen-duan-ping</id>
         <link href="https://eggzone.github.io/blog//post/chang-an-shi-er-shi-chen-duan-ping">
         </link>
