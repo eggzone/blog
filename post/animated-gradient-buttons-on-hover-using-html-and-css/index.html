@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>点击变换页面颜色 | Youngxy&#39;s Blog</title>
+<title>Animated gradient buttons on hover Using HTML &amp; CSS | Youngxy&#39;s Blog</title>
 <meta name="description" content="希望能是个永久的窝。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -62,12 +62,9 @@
       <div class="content-container">
         <div class="post-detail">
           
-            <div class="feature-container" style="background-image: url('https://eggzone.github.io/blog//post-images/dian-ji-bian-huan-ye-mian-yan-se.jpg')">
-            </div>
-          
-          <h2 class="post-title">点击变换页面颜色</h2>
+          <h2 class="post-title">Animated gradient buttons on hover Using HTML &amp; CSS</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-08-04</span>
+            <span><i class="icon-calendar-outline"></i> 2019-08-16</span>
             
               <span>
                 <i class="icon-pricetags-outline"></i>
@@ -81,69 +78,64 @@
             
           </div>
           <div class="post-content">
-            <p><img src="https://eggzone.github.io/blog//post-images/1564934397524.jpg" alt=""><br>
-效果如上。</p>
+            <p>效果如下：<br>
+<img src="https://eggzone.github.io/blog//post-images/1565940449837.png" alt=""></p>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
     &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
-    &lt;title&gt;变换色&lt;/title&gt;
-    &lt;script src=&quot;./jQuery/jquery-3.3.1.min.js&quot;&gt;&lt;/script&gt;
+    &lt;title&gt;hover渐变&lt;/title&gt;
     &lt;style&gt;
         * {
             margin: 0;
             padding: 0;
         }
-        .box {
+
+        .container {
             position: absolute;
-            top: 40px;
-            right: 40px;
-            background: #9b59b6;
-            padding: 10px;
+            left: 50%;
+            top:50%;
+            transform: translate(-50%, -50%);
         }
-        .box a {
-            display: block;
-            float: left;
-            height: 40px;
-            width: 40px;
-            /* margin: 10px; */
+
+        .btn {
+            font-family: 'montserrat', sans-serif;
+            border: none;
+            margin: 20px;
+            padding: 20px;
+            width: 220px;
+            text-transform: uppercase;
+            cursor: pointer;
+            border-radius: 5px;
+            color: white;
+            background-size: 200%;
+            transition: 0.6s;
         }
-        .box a:hover {
-            border: white 1px solid;
+        .btn:hover {
+            background-position: right;
         }
-        #blue {
-            background-color: #3498db;
+        .btn1 {
+            background-image: linear-gradient(to left, #f1c40f, #e67e22, #f1c40f)
         }
-        #green {
-            background-color: #2ecc71;
+        .btn2 {
+            background-image: linear-gradient(to left, #2ecc71, #1abc9c, #2ecc71)
         }
-        #red {
-            background-color: #e74c3c;
+        .btn3 {
+            background-image: linear-gradient(to left, #9b59b6, #8e44ad, #9b59b6)
         }
-        #white {
-            background-color: #ecf0f1;
-        }
-        #orange {
-            background-color: #e67e22;
+        .btn4 {
+            background-image: linear-gradient(to left, #e74c3c, #c0392b, #e74c3c)
         }
     &lt;/style&gt;
-    &lt;script&gt;
-        $(function() {
-            $('a').click(function() {
-                $('body').css('background-color', $(this).css('background-color'))
-            })
-        })
-    &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-    &lt;div class=&quot;box&quot;&gt;
-        &lt;a href=&quot;#&quot; id=&quot;red&quot;&gt;&lt;/a&gt;
-        &lt;a href=&quot;#&quot; id=&quot;green&quot;&gt;&lt;/a&gt;
-        &lt;a href=&quot;#&quot; id=&quot;orange&quot;&gt;&lt;/a&gt;
-        &lt;a href=&quot;#&quot; id=&quot;blue&quot;&gt;&lt;/a&gt;
-        &lt;a href=&quot;#&quot; id=&quot;white&quot;&gt;&lt;/a&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;button class=&quot;btn btn1&quot;&gt;hover me&lt;/button&gt;
+        &lt;button class=&quot;btn btn2&quot;&gt;hover me&lt;/button&gt;
+        &lt;button class=&quot;btn btn3&quot;&gt;hover me&lt;/button&gt;
+        &lt;button class=&quot;btn btn4&quot;&gt;hover me&lt;/button&gt;
     &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
@@ -153,6 +145,14 @@
         </div>
 
         
+          <div class="next-post">
+            <a class="purple-link" href="https://eggzone.github.io/blog//post/dian-ying-e-ren-chuan">
+              <h3 class="post-title">
+                下一篇：电影-恶人传
+              </h3>
+            </a>
+          </div>
+          
       </div>
 
       

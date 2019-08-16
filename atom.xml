@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eggzone.github.io/blog/</id>
     <title>Youngxy&apos;s Blog</title>
-    <updated>2019-08-15T02:12:26.930Z</updated>
+    <updated>2019-08-16T07:28:12.289Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eggzone.github.io/blog/"/>
     <link rel="self" href="https://eggzone.github.io/blog//atom.xml"/>
@@ -10,6 +10,76 @@
     <logo>https://eggzone.github.io/blog//images/avatar.png</logo>
     <icon>https://eggzone.github.io/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, Youngxy&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Animated gradient buttons on hover Using HTML & CSS]]></title>
+        <id>https://eggzone.github.io/blog//post/animated-gradient-buttons-on-hover-using-html-and-css</id>
+        <link href="https://eggzone.github.io/blog//post/animated-gradient-buttons-on-hover-using-html-and-css">
+        </link>
+        <updated>2019-08-16T07:26:22.000Z</updated>
+        <content type="html"><![CDATA[<p>效果如下：<br>
+<img src="https://eggzone.github.io/blog//post-images/1565940449837.png" alt=""></p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+    &lt;title&gt;hover渐变&lt;/title&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .btn {
+            font-family: 'montserrat', sans-serif;
+            border: none;
+            margin: 20px;
+            padding: 20px;
+            width: 220px;
+            text-transform: uppercase;
+            cursor: pointer;
+            border-radius: 5px;
+            color: white;
+            background-size: 200%;
+            transition: 0.6s;
+        }
+        .btn:hover {
+            background-position: right;
+        }
+        .btn1 {
+            background-image: linear-gradient(to left, #f1c40f, #e67e22, #f1c40f)
+        }
+        .btn2 {
+            background-image: linear-gradient(to left, #2ecc71, #1abc9c, #2ecc71)
+        }
+        .btn3 {
+            background-image: linear-gradient(to left, #9b59b6, #8e44ad, #9b59b6)
+        }
+        .btn4 {
+            background-image: linear-gradient(to left, #e74c3c, #c0392b, #e74c3c)
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;button class=&quot;btn btn1&quot;&gt;hover me&lt;/button&gt;
+        &lt;button class=&quot;btn btn2&quot;&gt;hover me&lt;/button&gt;
+        &lt;button class=&quot;btn btn3&quot;&gt;hover me&lt;/button&gt;
+        &lt;button class=&quot;btn btn4&quot;&gt;hover me&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[电影-恶人传]]></title>
         <id>https://eggzone.github.io/blog//post/dian-ying-e-ren-chuan</id>
