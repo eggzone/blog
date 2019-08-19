@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eggzone.github.io/blog/</id>
     <title>Youngxy&apos;s Blog</title>
-    <updated>2019-08-16T07:28:12.289Z</updated>
+    <updated>2019-08-19T08:53:02.065Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eggzone.github.io/blog/"/>
     <link rel="self" href="https://eggzone.github.io/blog//atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://eggzone.github.io/blog//images/avatar.png</logo>
     <icon>https://eggzone.github.io/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, Youngxy&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[[杂文]游戏已无爱]]></title>
+        <id>https://eggzone.github.io/blog//post/za-wen-you-xi-yi-wu-ai</id>
+        <link href="https://eggzone.github.io/blog//post/za-wen-you-xi-yi-wu-ai">
+        </link>
+        <updated>2019-08-19T08:50:40.000Z</updated>
+        <content type="html"><![CDATA[<p>如今已经越来越少玩游戏了，泡在社交新闻上面的时间要远远超过泡在游戏上面的时间。<br>
+以前在PC上玩FIFA、实况，总是非常期待有朝一日真正拥有自己的ps或者XBOX，结果真到在老姐家玩了过后，玩了两局就腻了。然后后来八哥给了一台xbox360，折腾了一个晚上之后，换了几个游戏之后，还是觉得索然无味，莫名地失落，这些游戏以前觉得好梦幻啊，结果真玩的时候怎么就这么不好玩呢，莫大的失落感。<br>
+然而想想，即使把时间都泡在社交和新闻上，对自己又有什么帮助呢？<br>
+目前的游戏菜单，然而里面的游戏都已经半年以上没碰过了<br>
+<img src="http://yanxuan.nosdn.127.net/0e26cf32aecea92646c212088467ba6e.png" alt="UTOOLS1566029360222.png"><br>
+辐射online<br>
+<img src="http://yanxuan.nosdn.127.net/96072fc40ce03c5e984a9c07d05f1fc7.png" alt="Image.png"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Animated gradient buttons on hover Using HTML & CSS]]></title>
         <id>https://eggzone.github.io/blog//post/animated-gradient-buttons-on-hover-using-html-and-css</id>
