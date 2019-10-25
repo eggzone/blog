@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eggzone.github.io/blog/</id>
     <title>Youngxy&apos;s Blog</title>
-    <updated>2019-08-19T08:53:02.065Z</updated>
+    <updated>2019-10-25T07:15:26.133Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eggzone.github.io/blog/"/>
     <link rel="self" href="https://eggzone.github.io/blog//atom.xml"/>
@@ -10,6 +10,42 @@
     <logo>https://eggzone.github.io/blog//images/avatar.png</logo>
     <icon>https://eggzone.github.io/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, Youngxy&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[一些CDN地址]]></title>
+        <id>https://eggzone.github.io/blog//post/yi-xie-cdn-di-zhi</id>
+        <link href="https://eggzone.github.io/blog//post/yi-xie-cdn-di-zhi">
+        </link>
+        <updated>2019-10-25T07:14:41.000Z</updated>
+        <content type="html"><![CDATA[<p>vue（学习用）：https://cdn.jsdelivr.net/npm/vue/dist/vue.js</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[python]pygame的使用方法]]></title>
+        <id>https://eggzone.github.io/blog//post/pythonpygame-de-shi-yong-fang-fa</id>
+        <link href="https://eggzone.github.io/blog//post/pythonpygame-de-shi-yong-fang-fa">
+        </link>
+        <updated>2019-08-28T20:18:25.000Z</updated>
+        <content type="html"><![CDATA[<p>初始化</p>
+<pre><code>import pygame
+import sys
+from pygame.locals import *
+
+
+pygame.init()
+screen = pygame.display.set_mode((800, 600))
+
+running = True
+
+while running:
+    for event in pygame.event.get():
+        if event.type == KEYDOWN:
+            if event.key == K_ESCAPE:
+                running = False
+        elif event.type == QUIT:
+            running = False
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[杂文]游戏已无爱]]></title>
         <id>https://eggzone.github.io/blog//post/za-wen-you-xi-yi-wu-ai</id>
