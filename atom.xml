@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eggzone.github.io/blog/</id>
     <title>Youngxy&apos;s Blog</title>
-    <updated>2019-10-25T07:15:26.133Z</updated>
+    <updated>2019-10-28T08:26:52.380Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eggzone.github.io/blog/"/>
     <link rel="self" href="https://eggzone.github.io/blog//atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://eggzone.github.io/blog//images/avatar.png</logo>
     <icon>https://eggzone.github.io/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, Youngxy&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[国内无线电频段]]></title>
+        <id>https://eggzone.github.io/blog//post/guo-nei-wu-xian-dian-pin-duan</id>
+        <link href="https://eggzone.github.io/blog//post/guo-nei-wu-xian-dian-pin-duan">
+        </link>
+        <updated>2019-10-28T08:14:06.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="5g频段">5G频段</h2>
+<p>目前国家也只发了</p>
+<ul>
+<li>中国电信 3400MHz-3500MHz共100MHz带宽的5G试验频率资源。</li>
+<li>中国联通 3500MHz-3600MHz共100MHz带宽的5G试验频率资源。</li>
+<li>中国移动  2515MHz-2675MHz、4800MHz-4900MHz频段的5G试验频率资源。其中，2515-2575MHz、2635-2675MHz和4800-4900MHz频段为新增频段，2575-2635MHz频段为重耕中国移动现有的TD-LTE(4G)频段。</li>
+</ul>
+<h2 id="国内无线频谱分配情况">国内无线频谱分配情况</h2>
+<p><img src="https://upload-images.jianshu.io/upload_images/17468541-04736ec41caf26f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="国内无线频谱分配情况"><br>
+注：1785-1805民航专用频段，也是地铁的专用频段。</p>
+<p>参考资料：<a href="https://www.sohu.com/a/228940013_202311">史上最全无线通信频率分配表，没有之一（含最新5G NR）</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一些CDN地址]]></title>
         <id>https://eggzone.github.io/blog//post/yi-xie-cdn-di-zhi</id>
